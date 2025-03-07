@@ -1,9 +1,41 @@
-title: Savitha Ravi
-logo: "/images/headshot.jpg?raw=true" # your photo (or logo) here
-description: > # your text below (remove <br> elements if you don't need line breaks)
-  Ph.D. student at UC San Diego
-  <br><br>
-  
-remote_theme: pages-themes/minimal@v0.2.0
+# title: Savitha Ravi
+# logo: "/images/headshot.jpg?raw=true" # your photo (or logo) here
+# description: > # your text below (remove <br> elements if you don't need line breaks)
+#   Ph.D. student at UC San Diego
+#   <br><br>
+
+
+locale                   : "en-US"
+title                    : "Savitha Ravi"
+title_separator          : "-"
+name                     : &name "Savitha Ravi"
+description              : &description "Computer Science PhD Student at UC San Diego"
+url                      : https://saviravi.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
+repository               : "saviravi.github.io"
+
+# Site Author - The following control what appear as part of the author content on the side bar.
+#               If a field is blank the icon and link will not appear, otherwise it will be shown.
+#               Additional customization can be done by editing /_includes/author-profile.html
+author:
+  # Biographic information
+  avatar           : "profile1.png"
+  name             : "Savitha Ravi"
+  pronouns         : "she/her"  
+  bio              : "CS PhD Student at UC San Diego"
+  location         : "La Jolla, California"
+  employer         : "UC San Diego"
+  uri              : # URL
+  email            : "s2ravi@ucsd.edu" 
+  github           : "saviravi"
+
+publication_category:
+  # manuscripts:
+  #   title: 'Journal Articles'    
+  conferences:
+    title: 'Conference Papers'
+ 
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"  # pages-themes/minimal@v0.2.0
 plugins:
 - jekyll-remote-theme
+- jekyll-include-cache
