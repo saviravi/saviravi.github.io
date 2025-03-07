@@ -19,7 +19,7 @@ repository               : "saviravi.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile1.png"
+  avatar           : "images/headshop.jpg"
   name             : "Savitha Ravi"
   pronouns         : "she/her"  
   bio              : "CS PhD Student at UC San Diego"
