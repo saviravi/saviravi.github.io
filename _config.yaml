@@ -28,6 +28,7 @@ author:
   uri              : # URL
   email            : "s2ravi@ucsd.edu" 
   github           : "saviravi"
+  orcid            : "https://orcid.org/0009-0006-9756-8832"
 
 publication_category:
   # manuscripts:
@@ -37,6 +38,8 @@ publication_category:
 
 include:
   - _pages
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 markdown: kramdown
 highlighter: rouge
@@ -83,6 +86,8 @@ defaults:
 
 atom_feed:
   hide: false
+
+permalink: /:categories/:title/
 
 remote_theme: "mmistakes/minimal-mistakes@4.26.2"  # pages-themes/minimal@v0.2.0
 plugins:
